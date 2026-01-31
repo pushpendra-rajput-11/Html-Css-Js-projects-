@@ -151,7 +151,7 @@ header {
     padding: 20px 50px;
   }
   .nav-bar {
-    padding: 20px;
+    padding: 20px 10px;
   }
   .nav-bar .links {
     display: none;

@@ -1011,6 +1011,16 @@ footer {
     height: 100%;
     width: 100%;
   }
+  .second-customer .experience-left{
+    padding-left: 50px;
+  }
+      .second-customer  .experince-image {
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        height: 39px;
+        width: 83px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 786px) {

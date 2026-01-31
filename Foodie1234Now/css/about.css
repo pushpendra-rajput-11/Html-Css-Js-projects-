@@ -165,10 +165,10 @@ header {
 }
 
 @media (max-width: 480px) {
-    header {
+  header {
     padding: 25px;
   }
-  .nav-bar{
+  .nav-bar {
     padding: 0px;
   }
 }
@@ -252,59 +252,58 @@ footer {
   }
 }
 
-.logo h2{
+.logo h2 {
   font-size: 22px;
   font-weight: 600;
 }
 
-.left-text div h2{
+.left-text div h2 {
   font-size: 64px;
   padding-right: 0px;
   font-weight: 600;
-    font-family: "Roboto", sans-serif;
-    color: #052a44;
+  font-family: "Roboto", sans-serif;
+  color: #052a44;
 }
 
-.btn{
+.btn {
   background-color: #5d74de;
-   font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.about-foodie{
+.about-foodie {
   display: flex;
   background-color: #e8eaf2;
 }
 
 .gap-3 {
-    gap: 1rem !important;
-    justify-content: center;
+  gap: 1rem !important;
+  justify-content: center;
 }
 
-.carousel-item img{
- min-height: 400px ;
+.carousel-item img {
+  min-height: 400px;
 }
 
-span{
+span {
   color: #5d74de;
 }
 
-.left-text ul li{
+.left-text ul li {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
 
-.left-text p{
+.left-text p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #333333;
   line-height: 1.6;
 }
 
-.left-text button{
+.left-text button {
   font-size: 16px;
   font-weight: 500;
 }
-
 
 .special-recipes {
   padding-top: 40px;
@@ -364,7 +363,6 @@ span{
   padding-bottom: 80px;
 }
 
-
 .order-1 {
   height: 240px;
   width: 220px;
@@ -395,24 +393,28 @@ span{
   width: 100%;
 }
 
-.card{
-    width: 400px;
-  }
-  
-  .heading h2{
- color: #052a44;
- font-size: 64px;
+.card {
+  width: 400px;
+  height: 100%;
 }
 
+.card img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
 
-.heading p{
+.heading h2 {
+  color: #052a44;
+  font-size: 64px;
+}
+
+.heading p {
   color: #757575;
   font-size: 22px;
 }
 
-
-.why-foodie{
-
+.why-foodie {
   background-color: #e8eaf2;
 }
 
@@ -432,7 +434,7 @@ span{
     bottom: 0px;
   }
 
-   .special-recipes-heading {
+  .special-recipes-heading {
     padding: 20px;
     text-align: start;
     font-family: "Roboto", sans-serif;
@@ -465,28 +467,25 @@ span{
     height: 100%;
     width: 100%;
   }
-      .image-section {
-        display: flex;
-        gap: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 0px;
-        flex-direction: row;
-    }
+  .image-section {
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    flex-direction: row;
+  }
 
-       .card {
-        width: 500px;
-    }
-  .card img{
+  .card {
+    width: 500px;
+  }
+  .card img {
     width: 100%;
   }
 }
 
-
-
-
-@media screen and (max-width:480px){
-   .order-1,
+@media screen and (max-width: 480px) {
+  .order-1,
   .order-2,
   .order-3,
   .order-4,
@@ -494,7 +493,7 @@ span{
     height: 100%;
     width: 100%;
   }
-    .image-section {
+  .image-section {
     gap: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -513,42 +512,56 @@ span{
     font-size: 30px;
     color: #052a44;
   }
-     .special-recipes .special-recipes-heading {
-        padding: 0px 0px 0px 0px;
-        text-align: start;
-        font-family: "Roboto", sans-serif;
-    }
-       .special-recipes   .image-section {
-        padding: 0px;
-        padding-bottom: 0px;
-    }
-
-
-    .card{
+  .special-recipes .special-recipes-heading {
+    padding: 0px 0px 0px 0px;
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+  }
+  .special-recipes .image-section {
+    padding: 0px;
+    padding-bottom: 0px;
+  }
+  .cards-content{
     width: 100%;
   }
- .left-text div h2 {
+
+  .card {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .left-text div h2 {
     font-size: 40px;
     padding-right: 0px;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
     color: #052a44;
-}
-.heading h2 {
+  }
+  .heading h2 {
     color: #052a44;
     font-size: 40px;
+  }
 }
-  
-}
 
-@media  screen and (max-width:1080px) {
+@media screen and (max-width: 1080px) {
+  .image-section {
+    padding: 0 50px;
+    padding-bottom: 50px;
+  }
+  .left-text div h2 {
+    font-size: 45px;
+    padding-right: 0px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #052a44;
+  }
+  .heading h2 {
+    color: #052a44;
+    font-size: 48px;
+  }
 
-.image-section {
-        padding: 0 50px;
-        padding-bottom: 50px;
-    }
-
-   .order-1,
+  .order-1,
   .order-2,
   .order-3,
   .order-4,
@@ -560,9 +573,9 @@ span{
     padding: 40px 50px 0px 50px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-}
-.image-section .center {
+  }
+  .image-section .center {
     position: relative;
     bottom: -34px;
-}
+  }
 }

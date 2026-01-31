@@ -1,12 +1,25 @@
  
+const toggleBtn = document.querySelector('.toggle_btn');
+      const toggleBtnIcon = document.querySelector('.toggle_btn i');
+      const dropdownMenu = document.querySelector('.dropdown_menu');
+
+      toggleBtn.onclick = function(){
+        dropdownMenu.classList.toggle('open');
+        const isOpen = dropdownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? "fa-solid fa-xmark"
+        : "fa-solid fa-bars"
+      }
+
 
     const progressCircle = document.querySelector(".autoplay-progress svg");
     const progressContent = document.querySelector(".autoplay-progress span");
     var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 50,
+      spaceBetween: 80,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 3000,
         disableOnInteraction: false
       },
       pagination: {
