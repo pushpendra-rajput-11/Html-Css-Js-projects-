@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driven by purpose</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/drivenByPurpose.css" />
+  </head>
+  <body>
+    <header>
+      <article class="top-from-header">
+        <p>
+          Free Shipping On Orders Over $75 • Sustainable Packaging Included |
+          Premium Pet Accessories & Online Pet Supplies USA
+        </p>
+      </article>
+      <div
+        class="nav-bar d-xl-flex justify-content-xl-between align-items-xl-center px-xl-5 py-xl-2 d-lg-flex justify-content-lg-between align-items-lg-center px-lg-5 py-lg-2"
+      >
+        <div class="dropdown-menu-btn" onclick="openNav()">
+          <img src="assests/menu.png" alt="" />
+        </div>
+        <div class="nav-links">
+          <ul class="d-xl-flex gap-xl-3 p-xl-0 m-0 d-lg-flex gap-lg-3">
+            <li><a href="Index.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="shop.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">Cat Essentials</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Chicken Coop Supplies</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Dog Essentials</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Fish & Aquatic Care</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Horse Care</a></li>
+                <li><a class="dropdown-item" href="#">Livestock Care</a></li>
+                <li><a class="dropdown-item" href="#">Reptile Supplies</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Small Pet Supplies</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Wild Bird Feed & Care</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="drivenByPurpose.html">Driven by Purpose</a></li>
+           <li><a href="blogs.html">Blogs</a></li>
+          </ul>
+        </div>
+
+        <div class="logo" id="#">
+          <a href="#"><img src="assests/logo.png" alt="" /></a>
+        </div>
+
+        <div class="icons">
+          <ul class="d-xl-flex gap-xl-3 m-0 d-lg-flex gap-lg-3">
+            <li onclick="searchBtn()">
+              <img src="assests/search.png" alt="" />
+            </li>
+            <li>
+              <img src="assests/cart.png" alt="" />
+            </li>
+            <li>
+              <img src="assests/profile.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pop-up-nav">
+        <div class="close-btn" onclick="closeNav()">
+          <img src="assests/close.png" alt="" />
+        </div>
+        <div class="drop-nav">
+          <div class="nav-links">
+            <ul class="d-xl-flex gap-xl-3 p-xl-0 m-xl-0">
+              <li>Home</li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cat Essentials</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Chicken Coop Supplies</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Dog Essentials</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Fish & Aquatic Care</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Horse Care</a></li>
+                  <li><a class="dropdown-item" href="#">Livestock Care</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Reptile Supplies</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Small Pet Supplies</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Wild Bird Feed & Care</a>
+                  </li>
+                </ul>
+              </li>
+              <li>Driven by Purpose</li>
+              <li>Blogs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="overlay" onclick="closeNav()"></div>
+    </header>
+    <main>
+      <section class="driven-by-purpose">
+        <h2>Driven by purpose.</h2>
+      </section>
+
+      <section class="united-by-pets">
+        <div class="left-section">
+          <h2>United by pets. Driven by purpose.</h2>
+          <p>
+            At WildKind, we believe every choice should protect what matters
+            most — our companions and our planet.
+          </p>
+          <div class="mission">
+            <h4>Our Mission</h4>
+            <p>
+              WildKind was forged with a simple vision: all animals deserve to
+              be treated with the same respect and care. From the billions of
+              chickens and cows we depend on, to the cheetahs whose numbers have
+              fallen from 100,000 to fewer than 8,000, every life matters.
+              <br />
+              But our purpose doesn’t stop at animals. We are committed to
+              protecting the planet they call home — and the environments humans
+              depend on, too. Every product we curate is chosen with care:
+              strong enough to last, kind enough to reduce harm, and built to
+              create a future where pets, wildlife, and people thrive together.
+            </p>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <img src="assests/horseanddog.png" alt="" />
+        </div>
+      </section>
+
+      <section class="why-pet-parent">
+        <h3>Why Pet Parents Choose WildKind</h3>
+
+        <div class="benefits">
+          <div class="benefits-one">
+            <div><img src="assests/icon-1.png" alt="" /></div>
+            <h3>Forged to Protect</h3>
+            <p>Every product supports pets, people, and the planet.</p>
+          </div>
+
+          <div class="benefits-one">
+            <div><img src="assests/icon-2.png" alt="" /></div>
+            <h3>Trusted Essentials</h3>
+            <p>
+              Only curated, eco-conscious pet products. No greenwashing, just
+              real quality you can trust.
+            </p>
+          </div>
+
+          <div class="benefits-one">
+            <div><img src="assests/icon-3.png" alt="" /></div>
+            <h3>The Pack Advantage</h3>
+            <p>
+              You’re not just shopping — you’re joining a movement of pet
+              parents who care fiercely.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-wildkind-exists">
+        <div class="right-section">
+          <img src="assests/human&dog.png" alt="" />
+        </div>
+        <div class="right">
+          <h3>Why WildKind Exists</h3>
+          <p>
+            Too often, pet products are wasteful, harmful, or made without
+            thought to the animals or the earth. We’re here to change that. By
+            curating eco-conscious products across every category — from waste
+            bags and treats to bedding, gear, and livestock care — we make
+            sustainable living possible for every pet parent. <br />
+            When you shop WildKind, you’re not just buying essentials.<b
+              >You’re making a choice that protects.</b
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="forged-member text-center">
+        <h3>Forged for every member. Who’s first?</h3>
+        <div class="pet-category-image d-flex justify-content-center">
+          <div>
+            <img src="assests/cat.png" alt="" />
+          </div>
+          <div>
+            <img src="assests/chicken.png" alt="" />
+          </div>
+          <div>
+            <img src="assests/dog.png" alt="" />
+          </div>
+          <div>
+            <img src="assests/fish.png" alt="" />
+          </div>
+          <div>
+            <img src="assests/horse.png" alt="" />
+          </div>
+          <div>
+            <img src="assests/livestock.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="pack-favorites">
+        <div class="pack-left">
+            <h3>Pack Favorites Categories</h3>
+            <div>
+                <h4>Natural Treats</h4>
+                <p>Wholesome, simple, and made with love. <br> Discover our selection of natural snacks crafted with real ingredients and no unnecessary additives — perfect for rewarding your pup the healthy way.</p>
+
+                <ul>
+                    <li>• 100% natural ingredients</li>
+                    <li>• No artificial flavors or preservatives</li>
+                    <li>• Gentle on sensitive stomachs</li>
+                    <li>• Perfect for everyday training & treating</li>
+                </ul>
+            </div>
+            <button>Shop Natural Treats</button>
+        </div>
+
+        <div class="right-section">
+            <img src="assests/dog-bone.png" alt="">
+        </div>
+      </section>
+
+      <section
+        class="petcare-solutions d-xl-flex justify-content-xl-between align-items-xl-center d-lg-flex justify-content-lg-between align-items-lg-center d-md-flex justify-content-md-between align-items-md-center"
+      >
+        <div>
+          <h2>Explore Our Comprehensive Petcare Solutions</h2>
+        </div>
+        <div
+          class="cat-rabit-image d-xl-flex align-items-end d-md-flex align-items-end"
+        >
+          <div class="cat-image">
+            <img src="assests/billi.png" alt="" />
+          </div>
+          <div class="rabbit-image">
+            <img src="assests/rabbit.png" alt="" />
+          </div>
+        </div>
+        <div class="petcare-buttons">
+          <button class="shop-now-btn">Shop Now</button>
+          <button class="contact-us-btn">Contact Us</button>
+        </div>
+      </section>
+    </main>
+     <footer>
+      <div class="footer-section">
+        <div
+          class="wild-kind col-xl-3 flex-xl-column col-lg-3 flex-lg-column col-lg-3 flex-lg-column col-lg-3 flex-lg-column"
+        >
+          <div>
+            <a href="#"><img src="assests/logo-footer.png" alt="" /></a>
+          </div>
+          <div>
+            <p>
+              WildKind was forged with a simple vision: all animals deserve to
+              be treated with the same respect and care.
+            </p>
+          </div>
+          <div class="pay-img">
+            <img src="assests/Item.png" alt="" />
+            <img src="assests/Item (1).png" alt="" />
+            <img src="assests/Item (2).png" alt="" />
+            <img src="assests/Item (3).png" alt="" />
+            <img src="assests/Item (4).png" alt="" />
+            <img src="assests/Frame.png" alt="" />
+            <img src="assests/Item (5).png" alt="" />
+
+            <img src="assests/Item (6).png" alt="" />
+            <img src="assests/Item (7).png" alt="" />
+          </div>
+        </div>
+
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul class="d-xl-flex flex-xl-column">
+            <li>
+              <a href="Index.html">
+                <div>
+                  <img src="assests/plus-symbol-button.png" alt="" />
+                </div>
+                <div><p>Home</p></div>
+              </a>
+            </li>
+            <li>
+              <a href="shop.html"><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Shop</p></a>
+            </li>
+            <li>
+              <a href="drivenByPurpose.html"><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Driven by Purpose</p></a>
+            </li>
+            <li>
+              <a href="faq.html"><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>FAQs</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Privacy Policy</p></a>
+            </li>
+            <li>
+             <a href=""> <div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Shipping Policy</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Disclaimer</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Refund & Returns</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Terms of Service</p></a>
+            </li>
+            <li>
+              <a href="contactUs.html"><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Contact Us</p></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="shop">
+          <h3>Shop</h3>
+          <ul class="d-xl-flex flex-xl-column">
+            <li>
+              <a href="shop.html"><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Cat Essentials</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Chicken Coop Supplies</p></a>
+            </li>
+            <li>
+             <a href=""> <div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Dog Essentials</p></a>
+            </li>
+
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Fish & Aquatic Care</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Horse Care</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Livestock Care</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Reptile Supplies</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Small Pet Supplies</p></a>
+            </li>
+            <li>
+              <a href=""><div>
+                <img src="assests/plus-symbol-button.png" alt="" />
+              </div>
+              <p>Wild Bird Feed & Care</p></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-dtl d-flex">
+          <div class="subscribe">
+            <div class="">
+              <h3>Join our email list</h3>
+              <p>Get exclusive deals and early access to new products.</p>
+              <div class="input">
+                <input type="email" placeholder="Email address" id="email" />
+                <button>Subscribe</button>
+              </div>
+            </div>
+            <div class="address">
+              <h3>Contact Us</h3>
+
+              <div class="contact-us">
+                <div><img src="assests/Border.png" alt="" /></div>
+                <p>thewildteam@shopwildkind.com</p>
+              </div>
+              <div class="contact-us rancho">
+                <div><img src="assests/Border (1).png" alt="" /></div>
+                <p>Rancho Santa Margarita, CA 92688 United States of America</p>
+              </div>
+            </div>
+          </div>
+          <div class="shapes">
+            <div class="shape-3">
+              <img src="assests/shape3.png.png" alt="" />
+            </div>
+
+            <div class="shape-2">
+              <img src="assests/shape2.png.png" alt="" />
+            </div>
+            <div class="shape-1">
+              <img src="assests/shape1.png.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <div class="copy-right d-flex justify-content-xl-between py-xl-3">
+        <div><p>© 2026 WildKind. All rights reserved.</p></div>
+        <div class="social-icons">
+          <img src="assests/145.png" alt="" />
+          <img src="assests/146.png" alt="" />
+          <img src="assests/147.png" alt="" />
+          <img src="assests/148.png" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
